@@ -7,6 +7,9 @@
 
 h1 {
   font-family: var(--main-head-font-text);
+  color: black;
+  font-weight: bold;
+  font-size: 96px;
 }
 
 .homepage {
@@ -108,33 +111,34 @@ h1 {
 .contact-me img {
   width: 100px;
 }
-
-.text-about-me {
-  margin: 50px;
+.container-content {
+  padding: 160px 20px;
 }
 
-.text-about-me h1 {
+.container-content h1 {
   font-size: 64px;
   font-weight: bold;
+  line-height: 80px;
 }
-
-.text-about-me h2 {
+.container-content h2 {
   font-size: 18px;
   font-family: var(--second-font-text);
   font-weight: bold;
 }
 
-.text-about-me p {
+.container-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container-content p {
   font-family: var(--second-font-text);
   font-size: 16px;
   line-height: 1.7;
 }
 
-.image-about {
-  padding: 50px;
-}
-.image-candela {
-  border-radius: 20px;
+.section-content {
+  margin: 30px;
 }
 
 @media (max-width: 900px) {
@@ -170,20 +174,15 @@ h1 {
     font-size: 35px;
   }
 
-  .footer-ctia p {
+  .footer-cta p {
     font-size: 13px;
   }
   .footer-cta a {
     font-size: 13px;
     padding: 8px;
   }
-  .text-about-me {
+  .container-content {
     text-align: center;
-    margin: 10px;
-    margin-bottom: 40px;
-  }
-
-  .image-about {
     padding: 0;
   }
 }
