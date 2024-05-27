@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My name is Candela Chaves. I'm a Front-end Developer based in Lisbon"
+    />
+    <title>Front-end Developer: Candela Chaves</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,26 +33,27 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/style/style.css" />
-    <title>Document</title>
   </head>
   <body>
     <nav>
       <div class="container d-flex justify-content-between">
         <img
           src="/images/shecodes-logo.png"
-          alt=""
+          alt="SheCodes logo"
+          title="SheCodes logo"
           class="nav-logo d-none d-md-block"
         />
         <img
           src="/images/shecodes-small-logo.jpeg"
-          alt=""
+          alt="SheCodes small logo version"
+          title="SheCodes logo"
           class="nav-small-logo d-block d-md-none"
         />
         <ul>
-          <li><a href="/"> Home</a></li>
-          <li><a href="/about-me.html"> About me </a></li>
-          <li><a href="/work.html"> Work</a></li>
-          <li><a href="#contact-me"> Contact me</a></li>
+          <li class="active"><a href="/" title="Homepage" > Home</a></li>
+          <li><a href="/about-me.html" title="About me page"> About me </a></li>
+          <li><a href="/work.html" title="Work page"> Work</a></li>
+          <li><a href="#contact-me" title="Contact me page"> Contact me</a></li>
         </ul>
       </div>
     </nav>
@@ -56,15 +62,21 @@
       <p>Hi, I am</p>
       <h1>Candela Chaves</h1>
       <h2>Frontend Developer, based in Portugal</h2>
-      <a href="#" class="btn btn-branding"> Contact me</a>
-      <a href="/about-me.html" class="btn btn-branding"> About me</a>
+      <a href="#contact-me" class="btn btn-branding" title="Contact me"> Contact me</a>
+      <a href="/about-me.html" class="btn btn-branding" title="About me">
+        About me</a
+      >
     </div>
     <div class="second-main-page">
       <p class="project-title m-5">Take a look to my best projects</p>
       <div class="container">
         <div class="row">
           <div class="col d-none d-md-block">
-            <img src="images/images.png" class="img-fluid m-4" alt="" />
+            <img
+              src="images/images.png"
+              class="img-fluid m-4"
+              alt="Yogurt image"
+            />
           </div>
           <div class="col text-project">
             <h1>
@@ -77,7 +89,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-project mt-3">Learn more</a>
+            <a
+              href="#"
+              class="btn btn-project mt-3"
+              title="Learn more about Yogurt Project"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="row">
@@ -92,15 +109,28 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-project mt-3">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-project mt-3"
+              title="Learn more about Weather Project"
+              >Learn more</a
+            >
           </div>
           <div class="col d-none d-md-block">
-            <img src="images/images-1.png" class="img-fluid m-4" alt="" />
+            <img
+              src="images/images-1.png"
+              class="img-fluid m-4"
+              alt="Forecast image"
+            />
           </div>
         </div>
         <div class="row">
           <div class="col d-none d-md-block">
-            <img src="images/images-2.png" class="img-fluid m-4" alt="" />
+            <img
+              src="images/images-2.png"
+              class="img-fluid m-4"
+              alt="Dictionary image"
+            />
           </div>
           <div class="col text-project">
             <h1>
@@ -113,7 +143,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-project mt-3">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-project mt-3"
+              title="Learn more about Dictionary Project"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -126,7 +161,9 @@
             <p>Let’s work together and i’ll help you by all my best</p>
           </div>
           <div class="col-sm-6">
-            <a href="#" class="btn btn-branding"> Let's talk here </a>
+            <a href="/work.html" class="btn btn-branding" title="Contact me">
+              Let's talk here
+            </a>
           </div>
         </div>
       </div>
@@ -134,19 +171,30 @@
         href="mailto:mcandela@gmail.com"
         class="contact-me d-flex justify-content-center mb-5"
         id="contact-me"
+        title="Contact me"
         >mcandela@gmail.com</a
       >
       <div class="social-links mb-5">
-        <a href="www.facebook.com/candela" target="_blank">
+        <a
+          href="www.facebook.com/candela"
+          target="_blank"
+          title="Facebook link"
+        >
           <i class="fa-brands fa-facebook-f"></i
         ></a>
-        <a href="www.twitter.com/candela" target="_blank"
+        <a href="www.twitter.com/candela" target="_blank" title="Twitter link"
           ><i class="fa-brands fa-twitter"></i
         ></a>
-        <a href="www.instagram.com/candela" target="_blank">
+        <a
+          href="www.instagram.com/candela"
+          target="_blank"
+          title="Instagram link"
+        >
           <i class="fa-brands fa-instagram"></i
         ></a>
       </div>
     </footer>
+        </div>
+
   </body>
 </html>

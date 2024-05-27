@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I'm a Front-end Developer based in Lisbon! Get to know me!"
+    />
+    <title>Get to know me!</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,9 +33,33 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/style/style.css" />
-    <title>Document</title>
   </head>
   <body>
+    <nav>
+      <div class="container d-flex justify-content-between">
+        <img
+          src="/images/shecodes-logo.png"
+          alt="SheCodes logo"
+          title="SheCodes logo"
+          class="nav-logo d-none d-md-block"
+        />
+        <img
+          src="/images/shecodes-small-logo.jpeg"
+          alt="SheCodes small logo version"
+          title="SheCodes logo"
+          class="nav-small-logo d-block d-md-none"
+        />
+        <ul>
+          <li><a href="/" title="Homepage"> Home</a></li>
+          <li class="active">
+            <a href="/about-me.html" title="About me page"> About me </a>
+          </li>
+          <li><a href="/work.html" title="Work page"> Work</a></li>
+          <li><a href="#contact-me" title="Contact me page"> Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container-content container">
       <div class="row">
         <div class="col-lg-6">
@@ -46,18 +75,67 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="/" class="btn btn-branding"> View all projects</a>
+            <a href="/" class="btn btn-branding" title="View all my projects">
+              View all projects</a
+            >
           </div>
         </div>
 
         <div class="image-about col-lg-6">
           <img
             src="/images/candela.jpeg"
-            alt=""
+            alt="Candela´s photo"
             class="image-candela img-fluid rounded"
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="mb-3">Work Inquiry</h2>
+              <p>Let’s work together and i’ll help you by all my best</p>
+            </div>
+            <div class="col-sm-6">
+              <a href="#" class="btn btn-branding" title="Contact me">
+                Let's talk here
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="mailto:mcandela@gmail.com"
+          class="contact-me d-flex justify-content-center mb-5"
+          id="contact-me"
+          title="Contact me"
+          >mcandela@gmail.com</a
+        >
+        <div class="social-links mb-5">
+          <a
+            href="www.facebook.com/candela"
+            target="_blank"
+            title="Facebook link"
+          >
+            <i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="www.twitter.com/candela" target="_blank" title="Twitter link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="www.instagram.com/candela"
+            target="_blank"
+            title="Instagram link"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <a
+          href="/"
+          class="back-homepage mt-5 mb-5 d-flex justify-content-center"
+          title="Back to homepage"
+          >Back to Homepage</a
+        >
+      </footer>
     </div>
   </body>
 </html>

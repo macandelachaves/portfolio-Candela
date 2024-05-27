@@ -36,7 +36,8 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: var(--second-text-color);
 }
 
@@ -149,11 +150,18 @@ footer .social-links a {
   padding: 10px 16px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+  font-size: 18px;
 }
 
 footer .social-links a:hover {
   color: white;
   background-color: #6b63ff;
+}
+
+footer .back-homepage {
+  font-size: 15px;
+  color: var(--second-text-color);
+  text-decoration: none;
 }
 .container-content {
   padding: 160px 20px;
