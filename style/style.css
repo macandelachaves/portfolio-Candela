@@ -193,6 +193,12 @@ footer .back-homepage {
   margin: 30px;
 }
 
+.image-candela {
+  max-width: 100%;
+  padding: 40px;
+  border-radius: 10%;
+}
+
 @media (max-width: 900px) {
   nav li {
     font-size: 14px;
@@ -225,7 +231,7 @@ footer .back-homepage {
   }
 
   footer .contact-box {
-    margin: 40px;
+    margin: 30px;
     text-align: center;
   }
   footer .contact-box h2 {
@@ -234,6 +240,16 @@ footer .back-homepage {
 
   .container-content {
     text-align: center;
+    padding: 30px;
+  }
+  .container-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    padding: 10px;
+    margin-bottom: 2px;
+  }
+
+  .image-candela {
     padding: 0;
   }
 }
