@@ -131,16 +131,16 @@ footer .contact-box {
 
   padding: 40px;
   border-radius: 20px;
-  margin: 100px;
+  margin: 100px 50px 40px 50px;
 }
 footer .contact-box h2 {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: normal;
   font-family: var(--main-head-font-text);
 }
 
 footer .contact-me {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 200;
   text-decoration: none;
   transition: all 100ms ease-in-out;
@@ -156,7 +156,6 @@ footer .social-links {
 }
 
 footer .social-links a {
-  margin: 0 20px;
   color: var(--second-text-color);
   background-color: #f9f7fe;
   padding: 10px 16px;
@@ -170,11 +169,6 @@ footer .social-links a:hover {
   background-color: #6b63ff;
 }
 
-footer .back-homepage {
-  font-size: 15px;
-  color: var(--second-text-color);
-  text-decoration: none;
-}
 .container-content {
   padding: 160px 20px;
 }
